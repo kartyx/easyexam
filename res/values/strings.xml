@@ -1,0 +1,166 @@
+<resources>
+
+    <string name="app_name">Easy Exam</string>
+    <string-array name="categories">
+        <item>After 12th</item>
+    	<item>Under Graduate</item> 
+    	<item>Post Graduate</item> 
+    </string-array>
+    <string-array name="engg">
+        <item>GATE</item>
+    	<item>TANCET</item> 
+    	<item>GRE</item> 
+    	<item>TOEFL</item>
+    	<item>IELTS</item> 
+    	<item>GMAT</item> 
+    	<item>CAT</item> 
+    </string-array>
+    <array name="enggimage">
+        <item>@drawable/gate</item>
+        <item>@drawable/tancet</item>
+        <item>@drawable/gre</item>
+        <item>@drawable/toefl</item>
+        <item>@drawable/ielts</item>
+        <item>@drawable/gmat</item>
+        <item>@drawable/cat</item>
+    </array>
+    <string-array name="Post">
+        <item >UPSC</item>
+        <item >SSC</item>
+        <item >Defence</item>
+        <item >LIC</item>
+        <item >Bank</item>
+    </string-array>
+    
+    <array name="postimage">
+        <item>@drawable/upsc</item>
+        <item>@drawable/ssc</item>
+        <item>@drawable/defence</item>
+        <item>@drawable/lic</item>
+        <item>@drawable/bank</item>
+    </array>
+    <string-array name="state">
+        <item >MHTCET</item>
+        <item >CET</item>
+        <item >TNEA</item>
+        <item >UPSEEE</item>
+        <item >COMEDK</item>
+        <item >EAMCET</item>
+        <item >KEAM</item>
+        <item >AssamJAT</item>
+        <item >CPET</item>
+        <item >TNPSC</item>
+    </string-array>
+	<array name="stateimage">
+	    <item>@drawable/mhtcet</item>
+	    <item>@drawable/cet</item>
+	    <item>@drawable/tnea</item>
+	    <item>@drawable/upseee</item>
+	    <item>@drawable/comedk</item>
+	    <item>@drawable/examcet</item>
+	    <item>@drawable/keam</item>
+	    <item>@drawable/assamjat</item>
+	    <item>@drawable/cpet</item>
+	    <item>@drawable/tnpsc</item>
+	</array>
+    <string-array name="national">
+        <item >JEE</item>
+        <item >AIEEE</item>
+        <item >BITSAT</item>
+        <item >VITEEE</item>
+        <item >NAT</item>
+        <item >ISAT</item>
+    </string-array>
+    <array name="nationalimage">
+        <item>@drawable/jee</item>
+        <item>@drawable/aieee</item>
+        <item>@drawable/bitsat</item>
+        <item>@drawable/viteee</item>
+        <item>@drawable/nata</item>
+        <item>@drawable/isat</item>
+    </array>
+    <string-array name="university">
+        <item >SRM</item>
+        <item >VEE</item>
+        <item >TripuraJEE</item>
+        <item >AUEEE</item>
+        <item >Amrita</item>
+        <item >BSAU</item>
+        <item >JNU</item>
+        <item >BEEE</item>
+    </string-array>
+    <array name="universityimage">
+        <item>@drawable/srm</item>
+        <item>@drawable/vels</item>
+        <item>@drawable/tripura</item>
+        <item>@drawable/annamalai</item>
+        <item>@drawable/amrita</item>
+        <item>@drawable/bsau</item>
+        <item>@drawable/jnu</item>
+        <item>@drawable/bharath</item>
+    </array>
+    
+    <string-array name="modules">
+        <item>Eligibility Criteria</item>
+        <item>Registration</item>
+        <item>Syllabus</item>
+        <item>Course Materials</item>
+        <item>Question papers</item>
+        <item>Sample papers</item>
+        <item>tips</item> 
+        <item>ResultAnalysis</item>
+        <item>Mock Test</item>
+    </string-array>
+    <array name="modulesimage">
+        <item>@drawable/eligible</item>
+        <item>@drawable/register</item>
+        <item>@drawable/syllabus</item>
+        <item>@drawable/materials</item>
+        <item>@drawable/ques</item>
+        <item>@drawable/sample</item>
+        <item>@drawable/tips</item>
+        <item>@drawable/result</item>
+        <item>@drawable/syllabus</item>
+    </array>
+    <string-array name="materials">
+        <item >material</item>
+        <item >material</item>
+        <item >material</item>
+    </string-array>
+	<array name="materialsimage">
+		<item>@drawable/notes</item>
+		<item>@drawable/notes</item>
+		<item>@drawable/notes</item>
+	</array>
+	<string-array name="previous">
+		<item>2013</item>
+		<item>2012</item>
+		<item>2011</item>
+		<item>2010</item>
+		<item>2009</item>
+	</string-array>
+	<array name="previousimage">
+		<item>@drawable/notes</item>
+		<item>@drawable/notes</item>
+		<item>@drawable/notes</item>
+	    <item>@drawable/notes</item>
+		<item>@drawable/notes</item>
+	</array>
+	<string-array name="samples">
+		<item>sample1</item>
+		<item>sample2</item>
+		<item>sample3</item>
+		<item>sample4</item>
+	</string-array>
+	<array name="samplesimage">
+		<item>@drawable/notes</item>
+		<item>@drawable/notes</item>
+		<item>@drawable/notes</item>
+		<item>@drawable/notes</item>
+	</array>
+	
+	<string name="drawer_open">
+	    Drawer Opened
+	</string>
+	<string name="drawer_close">Drawer Closed</string>
+</resources>

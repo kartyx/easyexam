@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+      <item android:id="@+id/menubar"
+          android:title="menu"
+          android:icon="@drawable/ic_action_overflow"
+          app:showAsAction="always">
+         <menu>
+             <item android:id="@+id/LogOut" 
+          android:orderInCategory="10"
+          android:title="LogOut"
+          android:icon="@drawable/logout"
+          ></item>
+   	<item 
+   	    android:id="@+id/Help"
+   	    android:title="Help"
+   	    android:icon="@drawable/ic_action_help"
+        ></item>"
+   	<item
+   	    android:id="@+id/dash"
+   	    android:title="DashBoard"
+   	    android:icon="@drawable/ic_action_star">
+   	    </item>
+   	
+         </menu> 
+      </item>
+    
+</menu>

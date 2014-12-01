@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/LoginUserText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="UserName"
+            android:shadowRadius="1.5"
+            tools:ignore="HardcodedText" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/LoginPassText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText" />
+		<CheckBox 
+		    android:id="@+id/keeplogged"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Keep Me Logged in"/>"
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/button_bg"
+            android:onClick="login"
+            android:shadowColor="#0f0"
+            android:shadowRadius="1.5"
+            android:text="LOGIN"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="160dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New User?"
+                android:textSize="35sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/signupbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/button_bg"
+                android:onClick="signup"
+                android:paddingBottom="5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="5dp"
+                android:shadowColor="#0f0"
+                android:shadowRadius="1.5"
+                android:text="SIGN UP"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+
+    <Button
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#05F"
+        android:onClick="engg"
+        android:text="During Engineering"
+        android:textColor="#FFF" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#05F"
+        android:onClick="post"
+        android:text="Post Graduation"
+        android:textColor="#FFF" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#05F"
+        android:onClick="after"
+        android:text="After HSC"
+        android:textColor="#FFF" />
+
+</LinearLayout>

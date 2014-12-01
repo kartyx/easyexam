@@ -1,0 +1,248 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.easyexam"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>	
+	 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	 <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Example">
+        <activity
+            android:name="com.easyexam.WelcomeActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+              	<action android:name="android.intent.action.MAIN"/>
+              	<category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+       </activity>
+       <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name="com.easyexam.HelpActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.easyexam.HELPACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="com.easyexam.FirstActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.easyexam.FIRSTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.easyexam.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.easyexam.LOGINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.SignUpActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.easyexam.SIGNUPACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name="com.easyexam.CategoryActivity"
+            android:label="@string/app_name"
+              >
+            <intent-filter>
+                <action android:name="com.easyexam.CATEGORYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name="com.easyexam.AfterActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.AFTERACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.EnggActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.ENGGACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name="com.easyexam.PostActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.POSTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.StateActivity"
+            android:label="@string/app_name" 
+             >
+            
+            <intent-filter>
+                <action android:name="com.easyexam.STATEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.NationalActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.NATIONALACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.UniversityActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.UNIVERSITYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.easyexam.ModulesActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.MODULESACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.EligibilityActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.EligibilityActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.MaterialsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.easyexam.MaterialsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.RegistrationActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.RegistrationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.PreviousActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.PreviousActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.SyllabusActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.SyllabusActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.TipsActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.TipsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name="com.easyexam.ResultsActivity"
+            android:label="@string/app_name" 
+             >
+            <intent-filter>
+                <action android:name="com.easyexam.ResultsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.SamplesActivity"
+            android:label="@string/app_name" 
+            >
+            <intent-filter>
+                <action android:name="com.easyexam.SamplesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	        <activity
+            android:name="com.easyexam.MockActivity"
+            android:label="@string/app_name" 
+            >
+            <intent-filter>
+                <action android:name="com.easyexam.MockActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.easyexam.MockResultActivity"
+            android:label="@string/app_name" 
+            >
+            <intent-filter>
+                <action android:name="com.easyexam.MockResultActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

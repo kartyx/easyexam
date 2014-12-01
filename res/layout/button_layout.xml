@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+    <Button
+        android:id="@+id/gointobutton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/button_bg"
+        android:onClick="gointo"
+        android:shadowColor="#0f0"
+        android:shadowRadius="1.5"
+        android:text="Go into the app"
+        android:textColor="#FFF" />
+
+</RelativeLayout>
